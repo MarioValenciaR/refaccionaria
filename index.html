@@ -2,32 +2,172 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoFix Garage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Refaccionaria Plus</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>AutoFix Garage</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="social-icons">
+      <a href="#" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook--v1.png" alt="Facebook"></a>
+      <a href="#" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Instagram"></a>
+    </div>
+    <div class="contact-info">
+      <span><img src="https://img.icons8.com/ios-glyphs/20/000000/phone.png" alt=""> (123) 456-7890</span>
+      <span><img src="https://img.icons8.com/ios-glyphs/20/000000/new-post.png" alt=""> contacto@refaccionaria.com</span>
+    </div>
+  </div>
+
+  <!-- Logo & Nav -->
+  <header class="main-header">
+    <div class="logo">
+      <h1>Refaccionaria Asfa<span></span></h1>
+    </div>
+    <nav class="main-nav">
+      <a href="#">INICIO</a>
+      <a href="#">SERVICIOS</a>
+      <a href="#">PRODUCTOS</a>
+      <a href="#">NOSOTROS</a>
+      <a href="#">CONTACTO</a>
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
-    <h2>Reliable Car Repair Services</h2>
-    <p>Your car deserves the best service. We’re here to help.</p>
-    <button onclick="contactNow()">Contact Us</button>
+    <h2>Tu auto, en buenas manos</h2>
+    <p>Servicio confiable, rápido y garantizado para tu vehículo.</p>
+    <button onclick="contactNow()">Contáctanos</button>
   </section>
 
-  <footer>
-    <p>&copy; 2025 AutoFix Garage. All rights reserved.</p>
+  <!-- Productos Destacados -->
+<section class="productos">
+    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1609770231373-79d931edc7c6?auto=format&fit=crop&w=800&q=80');">
+      <p>Garantía de buen precio</p>
+      <h3>Partes Interiores</h3>
+      <a href="#">Comprar ahora</a>
+    </div>
+    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1616587893871-02bc5ecff15b?auto=format&fit=crop&w=800&q=80');">
+      <p>Herramientas de alto nivel</p>
+      <h3>Rines</h3>
+      <a href="#">Comprar ahora</a>
+    </div>
+    <div class="producto-card" style="background-image: url('https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=800&q=80');">
+      <p>Para cualquier vehículo</p>
+      <h3>Partes de Motor</h3>
+      <a href="#">Comprar ahora</a>
+    </div>
+  </section>
+  
+  <!-- Beneficios -->
+  <section class="beneficios">
+    <div class="beneficio">
+      <img src="https://img.icons8.com/ios-filled/50/fa314a/delivery.png" alt="Envío Gratis">
+      <h4>Envío Gratis</h4>
+      <p>En pedidos mayores a $50</p>
+    </div>
+    <div class="beneficio">
+      <img src="https://img.icons8.com/ios-filled/50/fa314a/online-support.png" alt="Soporte">
+      <h4>Soporte 24/7</h4>
+      <p>Llámanos cuando quieras</p>
+    </div>
+    <div class="beneficio">
+      <img src="https://img.icons8.com/ios-filled/50/fa314a/lock-2.png" alt="Seguridad">
+      <h4>100% Seguro</h4>
+      <p>Pagos protegidos</p>
+    </div>
+    <div class="beneficio">
+      <img src="https://img.icons8.com/ios-filled/50/fa314a/sale.png" alt="Ofertas">
+      <h4>Grandes Ofertas</h4>
+      <p>Hasta 90% de descuento</p>
+    </div>
+  </section>
+  
+<!-- Categorías de Productos -->
+<section class="categorias">
+    <div class="categoria-header">
+      <h2>Categorías de Productos</h2>
+      <a href="#" class="btn-comprar">Contactanos ahora</a>
+    </div>
+    <div class="categoria-grid">
+      <div class="categoria-item">
+        <img src="https://w7.pngwing.com/pngs/318/850/png-transparent-car-2014-mazda6-2018-mazda6-chassis-car-structure-vehicle-transport-auto-part-thumbnail.png" alt="Partes de Carrocería">
+        <p>Partes de Carrocería</p>
+      </div>
+      <div class="categoria-item">
+        <img src="https://w7.pngwing.com/pngs/35/194/png-transparent-car-toyota-fortuner-light-headlamp-pink-light-lamp-vehicle-transport-thumbnail.png" alt="Luces y Faros">
+        <p>Luces y Faros</p>
+      </div>
+      <div class="categoria-item">
+        <img src="https://thumbs.dreamstime.com/b/frenos-del-coche-con-los-amortiguadores-56800162.jpg" alt="Frenos y Suspensión">
+        <p>Frenos y Suspensión</p>
+      </div>
+      <div class="categoria-item">
+        <img src="https://img.icons8.com/3d-fluency/100/engine.png" alt="Motor y Transmisión">
+        <p>Motor y Transmisión</p>
+      </div>
+      <div class="categoria-item">
+        <img src="https://img.freepik.com/fotos-premium/filtro-aceite-combustible-o-aire-coche-motor-aislado-fondo-blanco_85778-14.jpg" alt="Herramientas y Filtros">
+        <p>Herramientas y Filtros</p>
+      </div>
+      <div class="categoria-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpO4vjg6jhXS569Nwu6YnMQw7mEL8Jr1m3A&s" alt="Partes Interiores">
+        <p>Partes Interiores</p>
+      </div>
+    </div>
+  </section>
+<!-- Ubicación de la tienda -->
+<section class="ubicacion">
+    <h2>Visítanos</h2>
+    <p>Estamos ubicados en:</p>
+    <p>Manuel Ojinaga 5513, Cerro Cnel. I, Tiradores, 31350 Chihuahua, Chih., Mexico</p>
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.103774443115!2d-106.10588002489902!3d28.673020875628963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea43f78dcfcf21%3A0x4e3c4dfdd9fbb76b!2sManuel%20Ojinaga%205513%2C%20Cerro%20Cnel.%20I%2C%20Tiradores%2C%2031350%20Chihuahua%2C%20Chih.%2C%20Mexico!5e0!3m2!1ses-419!2sca!4v1715648934815!5m2!1ses-419!2sca"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Logo y descripción -->
+      <div class="footer-section">
+        <img src="https://img.icons8.com/ios-filled/50/fa314a/car-top-view.png" alt="Logo" class="footer-logo">
+        <p>Refaccionaria especializada en ofrecerte calidad, velocidad y confianza para tu auto.</p>
+        <div class="social-icons-footer">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram"></a>
+        </div>
+      </div>
+  
+      <!-- Servicios -->
+      <div class="footer-section">
+        <h4>Servicios al Cliente</h4>
+        <ul>
+          <li><a href="#">Contáctanos</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Preguntas Frecuentes</a></li>
+          <li><a href="#">Envíos</a></li>
+        </ul>
+      </div>
+  
+    <!-- Botón volver arriba -->
+    <a href="#" class="scroll-top">↑</a>
   </footer>
+  
 
   <script src="script.js"></script>
 </body>
 </html>
-
