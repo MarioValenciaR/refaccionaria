@@ -6,6 +6,10 @@
     --white: #ffffff;
     --gray: #888;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
   
   /* General */
   body {
@@ -18,12 +22,12 @@
   
   h2 {
     color: #ffffff;
-    size: 2rem;
+
   }
   /* Top Bar */
   .top-bar {
     background-color: #ff1e1e;
-    color: #2f2f2f;
+    color: #ffffff;
     padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -31,19 +35,7 @@
     font-size: 0.9rem;
     flex-wrap: wrap;
   }
-  /* Logo central */
-.logo-central {
-    text-align: center;
-    background-color: #ffffff;
-    background-color: #04124a;
-  }
-  
-  .logo-central img {
-    width: 120px;
-    height: auto;
-    max-width: 100%;
-  }
-  
+
   .top-bar img {
     vertical-align: middle;
     margin-right: 6px;
@@ -57,6 +49,19 @@
     width: 20px;
     height: 20px;
   }
+    /* Logo central */
+.logo-central {
+    text-align: center;
+    background-color: #ffffff;
+    background-color: #04124a;
+  }
+  
+  .logo-central img {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
+  }
+  
   
   /* Main Header */
   .main-header {
@@ -101,7 +106,7 @@
   
   /* Hero Section */
   .hero {
-    background: url('https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/896/2024-ram-1500_100896158.jpg') no-repeat center center;
+    background: url('./images/frontImage2.jpg') no-repeat center center;
     background-size: cover;
     padding: 6rem 2rem;
     text-align: center;
@@ -428,7 +433,9 @@
   
   .ubicacion h2 {
     margin-bottom: 0.5rem;
-    color: var(--main-color);
+    color: #ffffff;
+    background-color: #04124a;
+
   }
   
   .ubicacion p {
@@ -468,3 +475,27 @@
     height: 28px;
   }
   
+  /* Sobre Nosotros */
+.sobre-nosotros {
+  background-color: #fefefe;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.contenedor-nosotros {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sobre-nosotros h2 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-nosotros p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
