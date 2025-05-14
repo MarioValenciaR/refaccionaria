@@ -101,7 +101,7 @@
   }
   
   .main-nav a:hover {
-    color: #e91e63;
+    color: #ff0000;
   }
   
   /* Hero Section */
@@ -130,12 +130,13 @@
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1rem;
-    border-radius: 4px;
+    border-radius: 10px;
     transition: 0.3s;
   }
   
   button:hover {
-    background-color: #e68900;
+    background-color: #ff0000;
+    color: white;
   }
   
   /* Footer */
@@ -205,6 +206,7 @@
     padding: 2rem 1rem;
     background-color: #fefefe;
     text-align: center;
+    
   }
   
   .beneficio {
@@ -269,7 +271,7 @@
   }
   
   .categoria-item {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border: 2px solid transparent;
     border-radius: 10px;
     text-align: center;
@@ -287,6 +289,7 @@
     width: 170px;
     height: 170px;
     margin-bottom: 0.5rem;
+    border-radius: 80px;
   }
   
   .categoria-item p {
@@ -312,7 +315,7 @@
   }
   
   .footer-logo {
-    width: 40px;
+    width: 80px;
     margin-bottom: 1rem;
   }
   
@@ -498,4 +501,50 @@
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+
+/* Sección Contáctanos */
+.contactanos {
+  background-color: #f4f4f4;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.contactanos h2 {
+  color: var(--main-color);
+  margin-bottom: 2rem;
+}
+
+.contacto-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item-contacto {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.item-contacto img {
+  width: 28px;
+  height: 28px;
+}
+
+.item-contacto a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.item-contacto a:hover {
+  color: #e53935;
 }
