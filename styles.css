@@ -17,7 +17,8 @@
   }
   
   h2 {
-    color: #0c2340;
+    color: #ffffff;
+    size: 2rem;
   }
   /* Top Bar */
   .top-bar {
@@ -29,6 +30,18 @@
     align-items: center;
     font-size: 0.9rem;
     flex-wrap: wrap;
+  }
+  /* Logo central */
+.logo-central {
+    text-align: center;
+    background-color: #ffffff;
+    background-color: #04124a;
+  }
+  
+  .logo-central img {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
   }
   
   .top-bar img {
@@ -48,7 +61,7 @@
   /* Main Header */
   .main-header {
     background-color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     text-align: center;
     border-bottom: 1px solid #eee;
   }
@@ -88,7 +101,7 @@
   
   /* Hero Section */
   .hero {
-    background: url('https://images.unsplash.com/photo-1515920031044-d99c443e456e?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
+    background: url('https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/896/2024-ram-1500_100896158.jpg') no-repeat center center;
     background-size: cover;
     padding: 6rem 2rem;
     text-align: center;
@@ -399,7 +412,7 @@
     padding: 0.5rem 0.8rem;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: 0.3s;
+    transition: 0.6s;
   }
   
   .scroll-top:hover {
